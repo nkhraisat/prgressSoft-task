@@ -1,0 +1,57 @@
+                                  body {
+                                      background-color: rgb(179, 243, 243);
+                                  }
+                                  
+                                  #container {
+                                      display: flex;
+                                      flex-direction: column;
+                                  }
+                                  
+                                  #top {
+                                      text-align: center;
+                                  }
+                                  
+                                  #center {
+                                      display: flex;
+                                      flex-direction: row;
+                                      justify-content: space-between;
+                                      margin-left: 20%;
+                                      margin-right: 20%;
+                                  }
+                                  
+                                  #item-left {
+                                      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                                      transition: 0.3s;
+                                      width: 15%;
+                                      margin: 2%;
+                                      text-align: center;
+                                  }
+                                  
+                                  #item-right {
+                                      border: 1px solid black;
+                                      text-align: center;
+                                      height: 90px;
+                                      margin: 20px;
+                                      width: 300px;
+                                  }
+                                  
+                                  #bootom {
+                                      margin: auto;
+                                  }
+                                  
+                                  #bootom Button {
+                                      width: 140px;
+                                      height: 40px;
+                                      border-radius: 10px;
+                                      margin: auto;
+                                  }
+                                  
+                                  #buy {
+                                      height: 900px;
+                                      margin-left: 30%;
+                                      margin-bottom: 4%;
+                                      border-radius: 10px;
+                                      margin: auto;
+                                      height: 50px;
+                                      width: 10%;
+                                  }
